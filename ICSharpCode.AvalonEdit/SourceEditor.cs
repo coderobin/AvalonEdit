@@ -23,9 +23,9 @@ namespace SourceEditor.Controls
         {
           if(base.Text != value)
           {
-          	PropertyChanging();
+          	NotifyChanging();
             base.Text = value;
-            PropertyChanged();
+            NotifyChanged();
           }
           
         }
@@ -37,9 +37,9 @@ namespace SourceEditor.Controls
         { 
         	if(base.CaretOffset != value)
         	{
-        		PropertyChanging();
+        		NotifyChanging();
           		base.CaretOffset = value; 
-          		PropertyChanged();
+          		NotifyChanged();
         	}
         }
     }
