@@ -1,5 +1,7 @@
 ﻿# AvalonEdit
 
+[![Build status](https://ci.appveyor.com/api/projects/status/7j9oia14t9b5ni1l?svg=true)](https://ci.appveyor.com/project/xied75/avalonedit)
+
 AvalonEdit is the name of the WPF-based text editor in SharpDevelop 4.x "Mirador" and beyond.
 
 [avalonedit.net](http://avalonedit.net/)
